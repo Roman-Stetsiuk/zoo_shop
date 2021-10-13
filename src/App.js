@@ -1,13 +1,15 @@
-import Browse from "./components/webSitePages/Browse";
-import './App.css'
+import React from 'react';
+import {Browse} from './pages/Browse/';
+
+import './App.css';
 
 
 function App() {
-  return (
-    <div>
-          <Browse />
-    </div>
-  );
+    return (
+        <div>
+            <Browse/>
+        </div>
+    );
 }
 
 
