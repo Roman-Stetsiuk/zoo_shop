@@ -1,16 +1,25 @@
 import React from 'react';
-import {Browse} from './pages/Browse/';
-
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
+import {Product} from './pages/Product';
+import {Browse} from './pages/Browse';
+import {NavBar} from './components/Hub';
+import {Routes} from './Constants';
+import {Login} from './pages/Login';
 
 
-function App() {
+const App = () => {
     return (
-        <div>
-            <Browse/>
-        </div>
+        <BrowserRouter>
+            <NavBar>
+                <Switch>
+                    <Route exact path={Routes.browse} component={Browse}/>
+                    <Route exact path= {`${Routes.product}/:id`} component={Product}/>
+                    <Route exact path={Routes.login} component={Login}/>
+                </Switch>
+            </NavBar>
+        </BrowserRouter>
     );
-}
-
+};
 
 export default App;

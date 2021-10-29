@@ -1,1 +1,1 @@
-export { Browse } from './Browse.js';
+export * from './Browse';

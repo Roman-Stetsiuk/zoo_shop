@@ -1,1 +1,1 @@
-export {productPage} from './productPage.js';
+export * from './Product';

@@ -1,17 +1,16 @@
 import React from 'react';
-import { Game } from '../Game/';
+import {Game} from '../Game/';
 import './Board.css';
 
 
-function Board({data}) {
+export const Board = ({data}) => {
 
     return (
-        <div className="gameMenu">
+        <div className="board-menu">
             {data && data.map((game, i) => (
                 <Game key={i} game={game}/>
             ))}
         </div>
     );
-}
+};
 
-export { Board };

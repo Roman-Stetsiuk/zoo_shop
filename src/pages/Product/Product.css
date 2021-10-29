@@ -1,0 +1,44 @@
+.Product {
+    background: #284A6B;
+    background-size: 100%;
+    width: auto;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+ul {
+    content: '\2713';
+}
+
+.product-description {
+    background: rgba(42, 68, 94, .5);
+    max-height: 270px;
+    width: 90%;
+    color: azure;
+    display: inline-flex;
+}
+
+.product-description-text {
+    width: 60%;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.product-screenshots {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+.product-screen {
+    max-height: 400px;
+    max-width: 300px;
+    margin: 10px;
+}

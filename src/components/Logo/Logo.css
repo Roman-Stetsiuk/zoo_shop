@@ -1,0 +1,15 @@
+.logo-btn {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

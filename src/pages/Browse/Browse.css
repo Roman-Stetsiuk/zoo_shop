@@ -1,18 +1,4 @@
-.Browse{
-    background: #EAECEE ;
+.Browse {
+    background: #284A6B;
     border: black;
-}
-.habbar{
-    width: 100%;
-    height: 10vh;
-    background: #566573;
-    border: 1px solid black;
-    border-radius: 0 0 2vh 2vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.habbar a{
-    color: #000 !important;
-    text-decoration: none
 }

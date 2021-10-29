@@ -1,1 +1,1 @@
-export { Board } from './Board.js';
+export * from './Board.js';
