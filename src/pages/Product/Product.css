@@ -24,9 +24,12 @@ ul {
 }
 
 .product-description-text {
-    width: 60%;
+    width: 55%;
+    margin-left: 20px;
 }
-
+.tech{
+    margin-left: 20px;
+}
 li {
     margin-bottom: 8px;
 }

@@ -24,3 +24,15 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.navbar-cart-btn{
+    width: 35px;
+    height: 35px;
+}
+navbar-cart-icon{
+    width: 35px;
+    height: 35px; 
+}
+BsCart4{
+    width: 35px;
+    height: 35px;
+}

@@ -10,15 +10,16 @@ class FakeData {
             price: faker.datatype.number() + '$',
             thumbnail: faker.random.image(),
             id: faker.datatype.uuid(),
-            number: faker.datatype.number()
+            number: faker.datatype.number(),
+            username: faker.name.firstName(),
+            userAvatar: faker.random.image(),
         };
     }
 
     getProducts(amount = 12) {
         console.log(this.getProduct());
         return new Array(amount).fill(this.getProduct());
-
     }
 }
 
-export default new FakeData;
+export default new FakeData();

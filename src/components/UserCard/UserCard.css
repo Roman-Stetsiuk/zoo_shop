@@ -1,0 +1,23 @@
+
+.usercard-wrapper{
+    display: flex;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.usercard-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

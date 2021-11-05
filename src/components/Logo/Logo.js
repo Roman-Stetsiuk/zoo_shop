@@ -1,17 +1,18 @@
 import React from 'react';
-import {useHistory} from 'react-router-dom';
-import {Routes} from '../../Constants';
+import { useHistory } from 'react-router-dom';
+import { Routes } from '../../Constants';
 import './Logo.css';
 
-export const Logo = () =>{
-
+export const Logo = () => {
     const history = useHistory();
     const handleClick = () => history.push(`${Routes.browse}`);
 
-    return(
+    return (
         <div>
-            <button className='logo-btn' onClick={handleClick}> Galaxy Shop</button>
+            <button className='logo-btn' onClick={handleClick}>
+                {' '}
+                Galaxy Shop
+            </button>
         </div>
     );
 };
-
