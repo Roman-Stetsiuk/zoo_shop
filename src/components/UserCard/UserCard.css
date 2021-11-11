@@ -1,5 +1,6 @@
 
-.usercard-wrapper{
+/*.usercard-wrapper{
+    float: right;
     display: flex;
     text-decoration: none;
     outline: none;
@@ -15,9 +16,15 @@
     letter-spacing: 2px;
     justify-content: center;
     align-items: center;
-}
+}*/
 .usercard-avatar{
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
+}
+@media screen and (max-width: 425px) {
+  .usercard-avatar{
+      width: 12px;
+      height: 12px;
+  }
 }

@@ -9,7 +9,7 @@ export const Logo = () => {
 
     return (
         <div>
-            <button className='logo-btn' onClick={handleClick}>
+            <button className='navbar-btn' onClick={handleClick}>
                 {' '}
                 Galaxy Shop
             </button>

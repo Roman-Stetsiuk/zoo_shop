@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { BsCart4 } from 'react-icons/bs';
 import './NavBar.css';
 import { Logo } from '../Logo';
-import { UserCard } from '../UserCard/UserCard';
 import { Cart } from '../Cart';
+import { Profile } from '../Profile';
 
 export const NavBar = ({ children }) => {
     const [cartActive, setCartActive] = useState(false);
@@ -11,10 +11,10 @@ export const NavBar = ({ children }) => {
     return (
         <div className='navhab_wrapper'>
             <div className='navbar'>
-                <Logo />
-                <UserCard />
+                <Logo className='navbar-btn' />
+                <Profile className='navbar-btn' />
                 <button onClick={() => setCartActive(true)} className='navbar-cart-btn'>
-                    <BsCart4 className='navbar-cart-icon' size='10x' />
+                    <BsCart4 color='#f4faf6' size='10x' />
                 </button>
                 <Cart active={cartActive} setActive={setCartActive} />
             </div>

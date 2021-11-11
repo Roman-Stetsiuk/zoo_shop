@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background-color: #284A6B;
+    background-color: #f4faf6;
 }
 
 .login-wrap {
@@ -112,4 +112,27 @@
     outline: none!important;
     border: none;
     background: #333 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .login-wrap{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .login-wrap{
+        width: 200px;
+    }
+    .login-acc{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .login-input-username{
+        height: 30px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .login-in-username{
+        margin-bottom: 15px;
+    }
 }

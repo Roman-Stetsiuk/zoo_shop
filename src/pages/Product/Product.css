@@ -1,5 +1,5 @@
 .Product {
-    background: #284A6B;
+    background: #f4faf6;
     background-size: 100%;
     width: auto;
 }
@@ -16,7 +16,7 @@ ul {
 }
 
 .product-description {
-    background: rgba(42, 68, 94, .5);
+    background: rgba(42, 68, 94, .3);
     max-height: 270px;
     width: 90%;
     color: azure;
